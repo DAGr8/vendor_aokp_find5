@@ -1,5 +1,6 @@
 # Inherit AOSP device configuration for d2att.
 $(call inherit-product, device/oppo/find5/full_find5.mk)
+
 # Inherit GSM common stuff.
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
